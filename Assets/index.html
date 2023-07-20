@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Code Quiz</title>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Code Quiz</h1>
+  <div id="start-screen">
+    <h2>Are you ready?</h2>
+    <button id="start-button">Start</button>
+  </div>
+
+  <div id="quiz-screen">
+    <h2>Question</h2>
+    <p id="question-text"></p>
+    <form id="answer-form">
+      <div id="choices-container"></div>
+      <button type="submit" id="submit-button">Submit</button>
+    </form>
+    <p id="message"></p>
+    <p id="timer">Time remaining: <span id="time"></span></p>
+  </div>
+
+  <div id="game-over-screen">
+    <h2>Game Over</h2>
+    <p>Your score: <span id="score">0</span></p>
+    <label for="initials-input">Enter your initials:</label>
+    <input type="text" id="initials-input" placeholder="Your initials">
+    <button id="save-button">Save</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

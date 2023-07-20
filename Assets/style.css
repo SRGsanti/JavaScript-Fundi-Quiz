@@ -1,0 +1,80 @@
+/* Body and general styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+/* Start screen */
+#start-screen {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#start-button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #4287f5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Quiz screen */
+#quiz-screen {
+  display: none;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#choices-container {
+  text-align: left;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#submit-button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #4287f5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Game over screen */
+#game-over-screen {
+  display: none;
+  text-align: center;
+  margin-top: 50px;
+}
+
+#initials-input {
+  margin-top: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#save-button {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #4287f5;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
