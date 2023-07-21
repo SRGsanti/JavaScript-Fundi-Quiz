@@ -1,13 +1,17 @@
+/* styles.css */
+
 /* Body and general styles */
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  background-color: #f04343;
 }
 
 h1, h2 {
   text-align: center;
+  color: #4287f5;
 }
 
 /* Start screen */

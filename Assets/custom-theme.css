@@ -1,0 +1,169 @@
+/* custom-theme.css */
+
+/* Body and general styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e2c2; /* Custom background color */
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #7d1a1a; /* Custom heading color */
+  }
+  
+  /* Start screen */
+  #start-screen {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #start-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #7d1a1a; /* Custom button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Quiz screen */
+  #quiz-screen {
+    display: none;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #choices-container {
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #submit-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #7d1a1a; /* Custom button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  /* Game over screen */
+  #game-over-screen {
+    display: none;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #initials-input {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: 1px solid #7d1a1a; /* Custom border color */
+    border-radius: 5px;
+  }
+  
+  #save-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #7d1a1a; /* Custom button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Additional styles for visual feedback */
+  #quiz-screen .correct {
+    border-color: #2f7d28; /* Custom border color for correct answers */
+  }
+  
+  #quiz-screen .incorrect {
+    border-color: #e80000; /* Custom border color for incorrect answers */
+  }
+  
+  /* Additional styles for transitions */
+  #quiz-screen button {
+    transition: opacity 0.3s;
+  }
+  
+  /* Show/hide elements during quiz transitions */
+  #quiz-screen .hide-on-question-end {
+    display: block;
+  }
+  
+  #quiz-screen.question-end .hide-on-question-end {
+    display: none;
+  }
+  
+  /* Timer flash animation */
+  #timer {
+    animation: flash 0.5s infinite;
+  }
+  
+  @keyframes flash {
+    0%, 100% {
+      color: inherit;
+    }
+    50% {
+      color: #e80000; /* Custom flash color for the timer */
+    }
+  }
+  
+  /* Custom styles */
+  #container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+  
+  #timer {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  #score {
+    font-size: 24px;
+    font-weight: bold;
+    color: #7d1a1a; /* Custom color for the score */
+  }
+  
+  #initials-input {
+    width: 100%;
+    max-width: 300px;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #7d1a1a; /* Custom border color */
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #save-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #7d1a1a; /* Custom button color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Additional styles for transitions */
+  button {
+    transition: opacity 0.3s;
+  }
+  
